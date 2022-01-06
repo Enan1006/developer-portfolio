@@ -1,0 +1,150 @@
+body {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    border-left: 3px solid salmon;
+    border-spacing: 10px;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+span {
+    color: #FFAD5A;
+}
+
+section {
+    margin: 150px 0px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/************************common class***************************/
+
+.container {
+    padding: 0px 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.left-half {
+    width: 50%;
+    padding-left: 0px;
+}
+
+.right-half {
+    width: 50%;
+}
+
+/************************Hero Section***************************/
+
+#hero img {
+    width: 80%;
+    margin-top: -20%;
+}
+
+
+
+/************************Mission Section***************************/
+
+.icon-boxes {
+    margin: 20px 40px;
+}
+
+.first-box {
+    background-color: #d0eef2;
+}
+
+.second-box {
+    background-color: #ddc2c2;
+}
+
+.third-box {
+    background-color: #eddfb8;
+}
+
+.icon-box {
+    padding: 40px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.icon-box img {
+    width: 50%;
+}
+
+
+/************************Develop Section***************************/
+
+#develop {
+    padding-left: 80px;
+    background-image: url('images/3rd-sec-shape.png');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+#develop img {
+    width: 70%;
+}
+
+
+/************************Coomunity Section***************************/
+
+#community {
+    padding: 50px 80px;
+    background-image: url('images/3rd-sec-shape.png');
+    background-position: relative;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+#community img {
+    width: 70%;
+    float: right;
+}
