@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0px 0px;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -57,7 +57,7 @@ button {
 /************************common class***************************/
 
 .container {
-    padding: 0px 50px;
+    padding: 0px 90px;
 }
 
 .flex {
@@ -84,9 +84,7 @@ button {
 
 /************************Mission Section***************************/
 
-.icon-boxes {
-    margin: 20px 40px;
-}
+
 
 .first-box {
     background-color: #d0eef2;
@@ -103,7 +101,7 @@ button {
 .icon-box {
     padding: 40px 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -132,7 +130,7 @@ button {
 }
 
 
-/************************Coomunity Section***************************/
+/************************Community Section***************************/
 
 #community {
     padding: 50px 80px;
@@ -147,4 +145,63 @@ button {
 #community img {
     width: 70%;
     float: right;
+}
+
+/************************CONTACT Section***************************/
+
+#contact {
+    padding: 50px 80px;
+    background-image: url('images/Group\ 57900.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+form { 
+    max-width:420px;
+     margin:50px auto;
+     }
+
+.input {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    border: 1px solid #FF5959;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.submit {
+  width: 100%;
+  background: #FF5959;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+}
+
+/************************Footer Section***************************/
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+
+footer h3 {
+    font-family: 'Lobster', cursive;}
+
+footer span {
+    color: #FF5959;
 }
