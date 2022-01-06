@@ -158,6 +158,17 @@ button {
     background-size: 250px;
 }
 
+#contact div {
+    background: #FF5959;
+    border-radius: 25px;
+    padding: 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
 form { 
     max-width:420px;
      margin:50px auto;
@@ -165,6 +176,7 @@ form {
 
 .input {
     color: black;
+    border: 5px solid black;
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
@@ -176,14 +188,12 @@ form {
     box-sizing: border-box;
 }
 
-
-.submit {
-  width: 100%;
+input.submit {
+    border: 2px solid white;
+    color: white;
+    width: 100%;
   background: #FF5959;
   border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
   font-size:18px;
   padding-top:10px;
   padding-bottom:10px;
